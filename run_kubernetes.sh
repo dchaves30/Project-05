@@ -16,4 +16,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment project05 --name=project05 --port=80 --type=NodePort
+kubectl port-forward --address localhost pod/project05-554cc4b654-gwg74 8000
