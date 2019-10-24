@@ -6,8 +6,13 @@ version: 2
 jobs:
   build:
    docker:
+<<<<<<< HEAD
     # Use the same Docker base as the project
     - image: python:3.7.3-stretch
+=======
+	#Use the same Docker base as the project
+	- image: python:3.7.3-stretch
+>>>>>>> 6749c4155eaa7278b7b60fd8a99aaa519699ed8b
 
    working_directory: ~/repo
 
