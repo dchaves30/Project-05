@@ -1,4 +1,4 @@
-<https://circleci.com/gh/dchaves30/Project-05.svg?style=svg>
+[CircleCI](https://circleci.com/gh/dchaves30/Project-05.svg?style=svg)
 
 ### Project Tasks
 
