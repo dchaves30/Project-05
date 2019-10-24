@@ -11,7 +11,7 @@ dockerpath=dchaves30/project05:v1.0
 # Authenticate & tag
 echo "Docker ID and Image: " $dockerpath
 echo "Type your password: " 
-docker login -u dchaves30 -p Espoca34!
+docker login -u dchaves30 -p --password-stdin
 
 #create repository
 docker tag udacity_project_05:1.0 $dockerpath

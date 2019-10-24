@@ -1,5 +1,19 @@
-deployment.apps/project05 created
-NAME                                   READY   STATUS              RESTARTS   AGE
-kubernetes-bootcamp-69fbc6f4cf-7jtrh   1/1     Running             4          3d14h
-project05-554cc4b654-ls9x7             0/1     ContainerCreating   0          0s
-service/project05 exposed
+Danilos-MacBook-Pro:project-ml-microservice-kubernetes dchaves$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): deployments.apps "project05" already exists
+NAME                                   READY   STATUS    RESTARTS   AGE
+kubernetes-bootcamp-69fbc6f4cf-7jtrh   1/1     Running   4          3d15h
+project05-554cc4b654-gwg74             1/1     Running   0          36m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+-------------- on the "make_prediction.sh" shell tab
+(.devops) Danilos-MacBook-Pro:project-ml-microservice-kubernetes dchaves$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
